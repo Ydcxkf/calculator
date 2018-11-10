@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="7"
+    android:columnCount="4"
+    tools:context=".MainActivity"
+    tools:showln="@layout/activity_main"
+    >
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:id="@+id/textResult"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/buttonLeft"
+    android:text="  (  "
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRight"
+        android:text=" ) "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonClear"
+        android:text=" C"
+        />
+
+ <Button
+     android:id="@+id/buttonDelete"
+     android:layout_width="114dp"
+     android:layout_height="wrap_content"
+     android:text=" 删除 " />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRemove"
+        android:text=" / "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRemainder"
+        android:text=" % "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPoint"
+        android:text=" . "
+        />
+
+ <Button
+     android:id="@+id/buttonRide"
+     android:layout_width="115dp"
+     android:layout_height="wrap_content"
+     android:text=" x " />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOne"
+        android:text=" 1 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTwo"
+        android:text=" 2 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonThree"
+        android:text=" 3 "
+        />
+
+ <Button
+     android:id="@+id/buttonReduce"
+     android:layout_width="115dp"
+     android:layout_height="wrap_content"
+     android:text=" - " />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFour"
+        android:text=" 4 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFive"
+        android:text=" 5 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSix"
+        android:text=" 6 "
+        />
+
+ <Button
+     android:id="@+id/buttonPlus"
+     android:layout_width="114dp"
+     android:layout_height="wrap_content"
+     android:text=" + " />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSeven"
+        android:text=" 7 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEight"
+        android:text=" 8 "
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonNine"
+        android:text=" 9 "
+        />
+
+ <Button
+     android:id="@+id/buttonEqual"
+     android:layout_width="114dp"
+     android:layout_height="wrap_content"
+     android:layout_gravity="fill_vertical"
+     android:layout_rowSpan="2"
+     android:text=" = " />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonZero"
+        android:text=" 0 "
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal"
+        />
+    <Space/>
+</GridLayout>
